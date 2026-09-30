@@ -15,7 +15,7 @@ export default function Home(){return <main>
 
 <section id="parents" className="parentStrip"><div><span>✦</span><b>Why families will love it</b></div><div><b>♥ Real places, real stories</b><small>Brings history to life in a fun way.</small></div><div><b>● Quality family time</b><small>Perfect for days out or cosy days at home.</small></div><div><b>◆ Educational and fun</b><small>Builds curiosity and confidence.</small></div><div><b>★ A growing world</b><small>New locations, books and episodes.</small></div></section>
 
-<section className="membership"><p className="eyebrow">EXPLORER MEMBERSHIP</p><h2>One membership. A world of adventures.</h2><p>Unlock every Little Notebook adventure, game and new location as they’re released.</p><strong>£4.99 <small>/ month</small></strong><a className="button" href="#adventures">Join the Adventure →</a><small>Individual adventures also available from £3.99.</small></section>
+<section className="membership"><div className="membershipSeal">✦</div><p className="eyebrow">EXPLORER MEMBERSHIP</p><h2>One membership. A world of adventures.</h2><p>Unlock every Little Notebook adventure, game and new location as they’re released.</p><strong>£4.99 <small>/ month</small></strong><a className="button" href="#adventures">Join the Adventure →</a><small>Individual adventures also available from £3.99.</small></section>
 
-<footer><div><b>Little Notebook Explorers</b><span>Big adventures start with a little notebook.</span></div><div><a href="#adventures">Adventures</a><a href="#books">Books</a><a href="#parents">For parents</a></div><small>© 2026 Little Notebook Explorers</small></footer>
+<footer><div className="footerBrand"><b>Little Notebook Explorers</b><span>Big adventures start with a little notebook.</span></div><div><a href="#adventures">Adventures</a><a href="#books">Books</a><a href="#parents">For parents</a></div><small>© 2026 Little Notebook Explorers</small></footer>
 </main>}
