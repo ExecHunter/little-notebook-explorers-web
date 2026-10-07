@@ -21,3 +21,5 @@
 .characterGrid .portrait{height:auto!important;min-height:0!important;aspect-ratio:1/1!important;width:100%!important}
 .characterGrid .portrait img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center center!important}
 
+
+.comingCard .waterPhoto{background:none!important}.comingCard .waterPhoto img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
