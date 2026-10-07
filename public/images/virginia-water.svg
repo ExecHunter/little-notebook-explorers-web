@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9ed9e8"/><stop offset="1" stop-color="#f8d88a"/></linearGradient>
+ <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fc5cf"/><stop offset="1" stop-color="#3d8f9d"/></linearGradient>
+ <linearGradient id="hill" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#648f61"/><stop offset="1" stop-color="#355f48"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="1.5"/></filter>
+</defs>
+<rect width="1200" height="700" fill="url(#sky)"/>
+<circle cx="955" cy="130" r="62" fill="#ffd467"/>
+<path d="M0 300 Q180 240 360 285 T720 270 T1200 250 V420 H0Z" fill="#7ea875"/>
+<path d="M0 345 Q180 300 350 330 T700 315 T1200 300 V455 H0Z" fill="url(#hill)"/>
+<path d="M0 410 Q210 380 420 410 T800 400 T1200 385 V700 H0Z" fill="url(#lake)"/>
+<path d="M0 505 Q210 470 420 500 T800 490 T1200 475" fill="none" stroke="#a7d9d4" stroke-width="8" opacity=".6"/>
+<path d="M0 565 Q210 530 420 560 T800 550 T1200 535" fill="none" stroke="#b7e3dd" stroke-width="5" opacity=".45"/>
+<!-- distant trees -->
+<g fill="#315b43" opacity=".95">
+<path d="M55 350 l35-70 35 70z"/><path d="M105 350 l42-82 42 82z"/><path d="M165 350 l38-75 38 75z"/>
+<path d="M940 335 l40-82 40 82z"/><path d="M1000 335 l45-95 45 95z"/><path d="M1065 335 l35-72 35 72z"/>
+</g>
+<!-- iconic Chinese bridge -->
+<g transform="translate(450 325)">
+ <path d="M0 60 Q145 145 300 60" fill="none" stroke="#5d3d2c" stroke-width="18"/>
+ <path d="M35 48 Q150 105 265 48" fill="none" stroke="#b36b3e" stroke-width="8"/>
+ <path d="M30 50 L30 82 M80 72 L80 100 M130 88 L130 112 M180 88 L180 112 M230 72 L230 100 M270 50 L270 82" stroke="#6b432e" stroke-width="9"/>
+ <path d="M135 5 h30 l18 25 h-66z" fill="#7d4a30"/>
+ <path d="M135 5 v-25 h30 v25" fill="#70402b"/>
+</g>
+<!-- foreground trees -->
+<g>
+ <path d="M70 700 V500 Q105 455 140 500 V700" fill="#6b452f"/>
+ <path d="M15 525 Q45 420 105 455 Q140 370 205 450 Q250 455 270 525 Q220 490 170 525 Q105 485 15 525Z" fill="#315d43"/>
+ <path d="M1030 700 V505 Q1065 455 1100 505 V700" fill="#66432f"/>
+ <path d="M970 530 Q1005 425 1060 470 Q1100 370 1170 465 Q1210 470 1230 530 Q1165 495 1115 530 Q1050 490 970 530Z" fill="#315d43"/>
+</g>
+<!-- little exploration path -->
+<path d="M360 700 Q470 610 570 575 Q665 545 750 585 Q820 620 890 700" fill="none" stroke="#d7b47b" stroke-width="55"/>
+<path d="M360 700 Q470 610 570 575 Q665 545 750 585 Q820 620 890 700" fill="none" stroke="#ecd49b" stroke-width="38"/>
+<!-- subtle sparkles -->
+<g fill="#fff4c8"><circle cx="315" cy="185" r="6"/><circle cx="350" cy="165" r="4"/><circle cx="385" cy="188" r="5"/><circle cx="805" cy="210" r="5"/></g>
+</svg>
