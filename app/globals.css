@@ -11,3 +11,5 @@
 
 .quillPortrait{overflow:hidden;position:relative;background:#eadf9d!important}.quillPortrait img{width:100%;height:100%;max-width:none;object-fit:contain;object-position:center bottom;position:absolute;inset:0}.characterGrid article{overflow:hidden}.characterGrid .portrait{min-height:92px}
 
+
+.characterGrid .portrait{overflow:hidden;position:relative}.characterGrid .portrait img{width:100%;height:100%;max-width:none;object-fit:cover;object-position:center;position:absolute;inset:0}
