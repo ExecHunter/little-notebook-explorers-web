@@ -16,3 +16,7 @@
 
 /* Keep every Explorer fully visible inside the character artwork box. */
 .characterGrid .portrait img{object-fit:contain!important;object-position:center bottom!important;width:100%!important;height:100%!important}
+
+/* Explorer cards: square artwork stage so the square character assets display naturally without letterboxing or clipping. */
+.characterGrid .portrait{height:auto!important;min-height:0!important;aspect-ratio:1/1!important;width:100%!important}
+.characterGrid .portrait img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center center!important}
