@@ -23,3 +23,9 @@
 
 
 .comingCard .waterPhoto{background:none!important}.comingCard .waterPhoto img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
+
+
+/* Master LNE logo in the navigation header */
+.brand{display:flex;align-items:center;height:58px;width:190px;overflow:hidden}
+.brand img{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}
+@media(max-width:520px){.brand{width:145px;height:54px}}
