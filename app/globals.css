@@ -9,5 +9,5 @@
 @media(max-width:900px){.booksHero{grid-template-columns:1fr}.booksHero>div{padding:45px 22px}.booksHero img{height:320px;mask-image:linear-gradient(0deg,#000 70%,transparent)}.bookLaunch{grid-template-columns:1fr;padding:55px 22px}.bookLaunch.reverse .bookMock{order:0}.bookWorld>div{grid-template-columns:repeat(3,1fr);gap:25px}.bookWorld span{border:0}.bookLaunch h2{font-size:32px}}
 @media(max-width:520px){.booksHero h1{font-size:42px}.bookMock{width:230px;height:310px}.bookMock span{font-size:60px;margin:30px}.bookWorld>div{grid-template-columns:repeat(2,1fr)}}
 
-.quillPortrait{overflow:hidden;position:relative;background:#eadf9d!important}.quillPortrait img{width:270%;height:270%;max-width:none;object-fit:cover;position:absolute;left:-86%;top:-50%}.characterGrid article{overflow:hidden}.characterGrid .portrait{min-height:92px}
-@media(max-width:700px){.quillPortrait img{width:250%;height:250%;left:-78%;top:-43%}}
+.quillPortrait{overflow:hidden;position:relative;background:#eadf9d!important}.quillPortrait img{width:100%;height:100%;max-width:none;object-fit:contain;object-position:center bottom;position:absolute;inset:0}.characterGrid article{overflow:hidden}.characterGrid .portrait{min-height:92px}
+
