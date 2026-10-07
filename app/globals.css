@@ -21,5 +21,3 @@
 .characterGrid .portrait{height:auto!important;min-height:0!important;aspect-ratio:1/1!important;width:100%!important}
 .characterGrid .portrait img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center center!important}
 
-/* Ziggy needs slightly more breathing room than the other Explorer artwork. */
-.characterGrid .ziggyPortrait img{object-fit:contain!important;transform:scale(.78);transform-origin:center bottom}
